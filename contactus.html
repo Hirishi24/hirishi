@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Future Tech Insights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: black;
+            color: #fff;
+            position: relative;
+        }
+        body::before {
+            content: "Krazyyy Krazyyy Krazyyy Krazyyy Krazyyy Krazyyy Krazyyy Krazyyy Krazyyy Krazyyy";
+            font-size: 5em;
+            color: rgba(255, 255, 255, 0.1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+            z-index: -1;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+        }
+        #contact {
+            margin: auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input, button {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="container">
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <img class="full-photo" src="ppp.jpg"
+             alt="Ola" width="300" height="200">
+
+            <form>
+                <label for="email">Subscribe to our newsletter:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="topic">Suggest a topic:</label>
+                <input type="text" id="topic" name="topic">
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Krazyyy Mad Events. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
